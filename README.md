@@ -2,7 +2,8 @@
 
 # **IMPORTANT**
 
-retrieve the csv file data from https://nzta.maps.arcgis.com/home/item.html?id=77ca243032f144138adbbbe18a7589da
+retrieve the csv file data from https://catalogue.data.govt.nz/dataset/crash-analysis-system-cas-data3/resource/0dfd1ddb-582a-4a21-9cab-298c0b592729 
+and select download resource
 
 *EXTRA IMPORTANT*
 
