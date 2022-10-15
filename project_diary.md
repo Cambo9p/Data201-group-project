@@ -24,3 +24,8 @@ created git page, organised to meet other members on friday at 2
 
 }
 
+16/08/22 - cpe79 {
+    refactored bar graph from crash page 
+    looking into other datasets to get information from 
+    created and started on report 
+}
