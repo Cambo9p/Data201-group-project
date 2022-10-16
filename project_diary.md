@@ -38,6 +38,7 @@ https://github.com/Cambo9p/Data201-group-project
 
 17/08/22 - cpe79 {
 
+    created relationship diagram and edited code to add fields to the csv files 
     
 }
 
