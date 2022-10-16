@@ -1,8 +1,11 @@
 ** project diary for Data201 
 
+further information about who made what commits can be found at the github page 
+https://github.com/Cambo9p/Data201-group-project
+
 13/08/22 - cpe79 {
 
-created git page, organised to meet other members on friday at 2 
+    created git page, organised to meet other members on friday at 2 
 
 }
 
@@ -25,7 +28,16 @@ created git page, organised to meet other members on friday at 2
 }
 
 16/08/22 - cpe79 {
+
     refactored bar graph from crash page 
     looking into other datasets to get information from 
     created and started on report 
+    created and completed .ipynb files to create the tables for the date model 
 }
+
+
+17/08/22 - cpe79 {
+
+    
+}
+
