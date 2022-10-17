@@ -16,7 +16,11 @@ and select download resource
     2) create_vehicles.ipynb
     3) create_location.ipynb
     4) create_description.ipynb
+    5) create_speed.ipynb
+    
+4) now run the cells in the file create_data_model.ipynb
 
+you should have the complete data model as documented in the pdf below 
 
 
 [data201realtion.pdf](https://github.com/Cambo9p/Data201-group-project/files/9795705/data201realtion.pdf)
