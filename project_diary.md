@@ -51,3 +51,7 @@ https://github.com/Cambo9p/Data201-group-project
     data model now creates RDS file 
     created graphs from different files to represent data in visual form
 }
+
+18/08/22 - cpe79 {
+    started and finished presentation for the data we have collected
+}
