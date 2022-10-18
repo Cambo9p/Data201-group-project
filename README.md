@@ -16,9 +16,11 @@ and select download resource
     2) create_vehicles.ipynb
     3) create_location.ipynb
     4) create_description.ipynb
-    5) create_speed.ipynb
+    5) create_injury.ipynb
     
 4) now run the cells in the file create_data_model.ipynb
+
+5) now run graphedDataModel.ipynb
 
 you should have the complete data model as documented in the pdf below 
 

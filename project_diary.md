@@ -27,6 +27,10 @@ https://github.com/Cambo9p/Data201-group-project
 
 }
 
+16/08/22 - pni31 
+    
+    searched for additional data sources to use
+
 16/08/22 - cpe79 {
 
     refactored bar graph from crash page 
@@ -42,3 +46,8 @@ https://github.com/Cambo9p/Data201-group-project
     
 }
 
+18/08/22 - pni31 {
+
+    data model now creates RDS file 
+    created graphs from different files to represent data in visual form
+}
