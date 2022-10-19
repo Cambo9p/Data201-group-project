@@ -54,4 +54,9 @@ https://github.com/Cambo9p/Data201-group-project
 
 18/08/22 - cpe79 {
     started and finished presentation for the data we have collected
+    looked into automating the datamodel to update with the newest information 
 }
+
+20/08/22 - cpe79 {
+	}
+
