@@ -58,5 +58,10 @@ https://github.com/Cambo9p/Data201-group-project
 }
 
 20/08/22 - cpe79 {
+	played around with different packages to find a way to automatically download the csv file 
+	from the internet 
+	began reorganising code as theres too many files that are useless
+
+
 	}
 
