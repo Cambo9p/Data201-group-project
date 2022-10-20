@@ -61,7 +61,8 @@ https://github.com/Cambo9p/Data201-group-project
 	played around with different packages to find a way to automatically download the csv file 
 	from the internet 
 	began reorganising code as theres too many files that are useless
-
+	automated downloaing of the datamodel
+	automated column filtering using regexs to account for a sudden change in variable name for region
 
 	}
 
