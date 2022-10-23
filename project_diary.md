@@ -66,3 +66,17 @@ https://github.com/Cambo9p/Data201-group-project
 
 	}
 
+21/08/22 - cpe79 {
+	worked on automating the creation of the data model 
+	-- looked into having one script that runs all of the necessary files to 
+	produce the data 
+}
+
+23/08/22 - cpe79 {
+	looked into 'merging the jupyter notebooks rather than running them all at once 
+	as im not sure running them all at once will work since there are notebooks using different kernels 
+	- seems to work only when using ipython kernel 
+
+	added content to the project report
+}
+
