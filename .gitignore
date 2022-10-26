@@ -9,3 +9,5 @@ vehicles.csv
 crash.csv
 injury.csv
 test.csv
+merged.ipynb
+crashDataModel.rds
