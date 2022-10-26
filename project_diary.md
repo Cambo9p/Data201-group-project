@@ -82,5 +82,11 @@ https://github.com/Cambo9p/Data201-group-project
 
 26/08/22 - cpe79 {
 	still trying to find a way to combine the notebooks, i have a way to merge python files but not r files
+
+	finally finished working on the merging of the files 
+
+	added to project report 
+	kept working on better ways to automate the data model (regex's to determine what columns are in 
+	what files ect) 
 }
 
