@@ -80,3 +80,7 @@ https://github.com/Cambo9p/Data201-group-project
 	added content to the project report
 }
 
+26/08/22 - cpe79 {
+	still trying to find a way to combine the notebooks, i have a way to merge python files but not r files
+}
+
