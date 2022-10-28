@@ -1,26 +1,17 @@
 # Data201-group-project
 
-# **IMPORTANT** 
+#Steps to produce the data
 
-## Steps to produce the data
+1) downloading the raw data 
 
-1) retrieve the csv file data from https://catalogue.data.govt.nz/dataset/crash-analysis-system-cas-data3/resource/0dfd1ddb-582a-4a21-9cab-298c0b592729 
-and select download resource
+run the cells in the file 'Download_resource.ipynb' - this will download the raw data as the file crash_data.csv
 
- save the file as 'crash_data.csv' inside the folder, it is *important* that all file names are the same as in this readme
+***warning*** this file will take a long time to download - It has taken around 7.5 minutes on 200Mbps wifi.
 
-2) run the cells in the crash_data.ipynb file, this will produce chch_crashes.csv which we will use to create the data model 
+2) creating the data model  
 
-3) run the cells in the files (in no particular order) from:
-    1) create_speed.ipynb
-    2) create_vehicles.ipynb
-    3) create_location.ipynb
-    4) create_description.ipynb
-    5) create_injury.ipynb
-    
-4) now run the cells in the file create_data_model.ipynb
+run the file 'main.ipynb' - this will run the cells that create the data model 
 
-5) now run graphedDataModel.ipynb
 
 you should have the complete data model as documented in the pdf below 
 
