@@ -3,9 +3,21 @@
 further information about who made what commits can be found at the github page 
 https://github.com/Cambo9p/Data201-group-project
 
+3/08/22 - cpe79 {
+	reached out to group members about project - created discord group chat for the members 
+}
+
+10/08/22 - cpe79 {
+	sent follow up message asking what ideas for the project the other members had
+}
+
+12/08/22 - cpe79 {
+	organised to meet members on firday at 2pm 
+}
+
 13/08/22 - cpe79 {
 
-    created git page, organised to meet other members on friday at 2 
+    created git page
 
 }
 
@@ -90,3 +102,12 @@ https://github.com/Cambo9p/Data201-group-project
 	what files ect) 
 }
 
+28/08/22 - cpe79 {
+
+	changed readme to display the new way of producing the datamodel 
+	worked on create_speed file to automate what columns go into the speed.csv file,
+	this means that any changes in variable names or additions of new names to the main file 
+	shouldnt break the data model 
+
+
+}
