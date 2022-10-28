@@ -1,6 +1,6 @@
 # Data201-group-project
 
-#Steps to produce the data
+# Steps to produce the data
 
 1) downloading the raw data 
 
