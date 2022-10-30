@@ -111,3 +111,12 @@ https://github.com/Cambo9p/Data201-group-project
 
 
 }
+
+29/08/22 - {
+	finished code for speed.csv where it automatically chooses the columns based off of the 
+	name using regexs
+}
+
+30/08/22 - {
+	worked on project diary and made sure the project was functioning 
+}
