@@ -53,5 +53,14 @@ however it has many flaws. first off a lot of the table columns are hard coded c
 The project is not close to finished, if I had more time here is a short list of the things I would do
 
 1 ) fix the merge files 
-it was not clear at the start how we would get everything into one file and make it easy to run all the code, unfortunately due to this I created a lot of seperate files to work with different csv files for ease of debugging and making it easy to read, unfortunately this means that when it comes to merging the files sequentially, the library tidyverse is imported several times as it is as the top of many files  
+
+it was not clear at the start how we would get everything into one file and make it easy to run all the code, unfortunately due to this I created a lot of seperate files to work with different csv files for ease of debugging and making it easy to read, unfortunately this means that when it comes to merging the files sequentially, the library tidyverse is imported several times as it is as the top of many files, aswell as importing the same files multiple times, this is obv extremely bad practice however i do not have the time to fix it as this ended up being a one person project.
+
+2) automate the data better
+
+My goal for this project was for the data model produced to be robust and be able to change what columns ended up in what tables by itself, meaning that the use of this project would be self sustaining, unfortunately this is vastly unfinished, as the only operations that wont be affected by the changing of the raw data would be the speed file and the sorting of the data into the canterbury region. 
+
+
+
+
 
