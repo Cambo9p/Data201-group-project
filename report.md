@@ -15,6 +15,8 @@ as we want the data in the data model to be automated to the most recent data. O
 
 One problem with the data set is that we couldnt find another dataset that was detailed enough to be able to merge them, this means that the data unfortunately only comes from one data source however this data source does contain data of over 800,000 crashes over the past 20 years. 
 
+another problem was the sheer size of the raw data, taking several minutes to download and over 800,000 columns, to make the dataset easier to work with we decided to filter the columns so that the data is onlly for the crashes in the canterbury region.
+
 
 we got the raw data for the crashes in new zealand from
 https://catalogue.data.govt.nz/dataset/crash-analysis-system-cas-data3/resource/0dfd1ddb-582a-4a21-9cab-298c0b592729
@@ -22,9 +24,14 @@ https://catalogue.data.govt.nz/dataset/crash-analysis-system-cas-data3/resource/
 
 # what was our target 
 
-Our target was people and data scientists who are interested in New Zealand crash data and our goal is to develop a data model that will help these people 
+Our target was people and data scientists who are interested in New Zealand crash data and our goal is to develop a data model that will help these people.
 
-4) what difficulties have you overcome to wrangle the data into the target data model
+My hope was to create a package that the user can download and run one file and all the data off the internet is compiled and filtered nicely for them to use. 
+
+# what difficulties have you overcome to wrangle the data into the target data model
+
+We found significant difficulty in finding a way to automate the columns in a way where all the csv files were correctly populated. 
+Eventually we ran out of time and only managed to automate the speed columns as this was fairly trivial, and the regions to slim the dataset down to the canterbury region.
 
 
 
@@ -35,4 +42,16 @@ we wanted to use techniques to wrangle the data such that would if there was a c
 ![image](https://user-images.githubusercontent.com/97574130/197939530-208d1aa1-ed84-43a2-9e78-22cf8d55be28.png)
 
 
-6) what you managed to achieve and what you failed to do 
+# what you managed to achieve and what you failed to do 
+
+We managed to create and compile a data model from the internet, this is in a relatively easy to access package with just a few steps to download and create the data, with the user only having to run 2 files to reproduce the data, this was made possible through the use of notebook merging.
+
+however it has many flaws. first off a lot of the table columns are hard coded choices, I simply didnt have enough time to even think about how I was going to achieve this goal.
+
+# What we failed to do
+
+The project is not close to finished, if I had more time here is a short list of the things I would do
+
+1 ) fix the merge files 
+it was not clear at the start how we would get everything into one file and make it easy to run all the code, unfortunately due to this I created a lot of seperate files to work with different csv files for ease of debugging and making it easy to read, unfortunately this means that when it comes to merging the files sequentially, the library tidyverse is imported several times as it is as the top of many files  
+
