@@ -33,6 +33,10 @@ My hope was to create a package that the user can download and run one file and 
 We found significant difficulty in finding a way to automate the columns in a way where all the csv files were correctly populated. 
 Eventually we ran out of time and only managed to automate the speed columns as this was fairly trivial, and the regions to slim the dataset down to the canterbury region.
 
+Another difficulty we faced was downloading the raw data automatically, we could not scrape the data using 
+We experemented with various different libraries and methods to download the raw data automatically, the main problem was that all the R modules took longer than 60 seconds wich triggered the timeout clause, I then attempted to change the timeout using `options(timeout=500)` to increase the timer however I think this wouldnt work due to the sheer size of the file, I decided to use python to download the file as pandas has a great method to read csv files from a url, although this still takes a long period of time 
+
+![image](https://user-images.githubusercontent.com/97574130/198871078-d3dc5d9e-0e37-41a8-9006-6de2e5316623.png)
 
 
 # what techniques did we use? 
@@ -42,7 +46,7 @@ we wanted to use techniques to wrangle the data such that would if there was a c
 ![image](https://user-images.githubusercontent.com/97574130/197939530-208d1aa1-ed84-43a2-9e78-22cf8d55be28.png)
 
 
-# what you managed to achieve and what you failed to do 
+# what we managed to do 
 
 We managed to create and compile a data model from the internet, this is in a relatively easy to access package with just a few steps to download and create the data, with the user only having to run 2 files to reproduce the data, this was made possible through the use of notebook merging.
 
