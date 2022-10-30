@@ -50,7 +50,8 @@ we wanted to use techniques to wrangle the data such that would if there was a c
 
 We managed to create and compile a data model from the internet, this is in a relatively easy to access package with just a few steps to download and create the data, with the user only having to run 2 files to reproduce the data, this was made possible through the use of notebook merging.
 
-however it has many flaws. first off a lot of the table columns are hard coded choices, I simply didnt have enough time to even think about how I was going to achieve this goal.
+After the user has ran the files the a data model that is very easy to understand is downloaded. this is documented in the file data201relation.pdf
+
 
 # What we failed to do
 
