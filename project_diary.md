@@ -113,6 +113,9 @@ https://github.com/Cambo9p/Data201-group-project
 	worked on project diary and made sure the project was functioning 
 	re-ran all cells 
 	refactored project diary to make it readable 
+
+	fixed problems with git where i accidentally made a change that broke the code several days ago 
+	and didnt realise 
 	
 	
 
